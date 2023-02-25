@@ -1,6 +1,7 @@
 approvaltests>=8.2.0
 black>=22.6.0
 build>=0.8.0
+cl-runtime>=2.0.0
 flake8>=4.0.1
 isort>=5.10.1
 numpy>=1.17.4
