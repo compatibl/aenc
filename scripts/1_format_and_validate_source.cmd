@@ -1,27 +1,31 @@
 @echo off
 
+echo Switch to parent directory
 pushd ..
+echo.
 
 set target=aenc
 set level=""
 
+echo Activate virtual environment
 call venv\Scripts\activate.bat
 echo.
-echo Formatting using isort
-echo ----------------------------------------
+
+echo Format using isort
 isort %target% --sp=%level%.isort.cfg
-echo ----------------------------------------
 echo.
-echo Formatting using black
-echo ----------------------------------------
-black %target% --config=%level%pyproject.toml
-echo ----------------------------------------
+
+echo Format using black
+black %target% --config=%level%pyproject.toml --quiet
 echo.
-echo Validating using flake8
-echo ----------------------------------------
+
+echo Validate using flake8
 flake8 %target% --config=%level%.flake8
-echo ----------------------------------------
+echo.
 
+echo Deactivate virtual environment
 call venv\Scripts\deactivate.bat
+echo.
 
+echo Return to original directory
 popd
