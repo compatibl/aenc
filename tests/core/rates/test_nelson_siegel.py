@@ -12,11 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import pandas as pd
-import numpy as np
-
-import pytest
 import approvaltests as at
+import numpy as np
+import pandas as pd
+import pytest
 
 import aenc as ae
 
@@ -44,4 +43,3 @@ def test_zero_rates() -> None:
 
 if __name__ == "__main__":
     pytest.main([__file__])
-
