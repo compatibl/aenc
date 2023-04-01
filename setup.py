@@ -8,7 +8,7 @@ with open('./requirements.txt') as requirements_file:
 
 setuptools.setup(
     name='aenc',
-    version='0.0.1',
+    version='0.0.2',
     author="The Project Contributors",
     description='Specialized autoencoders for dimension reduction in quant models of financial markets (AENC)',
     long_description=readme,
