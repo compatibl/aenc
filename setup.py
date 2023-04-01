@@ -10,7 +10,7 @@ setuptools.setup(
     name='aenc',
     version='0.0.2',
     author="The Project Contributors",
-    description='Specialized autoencoders for dimension reduction in quant models of financial markets (AENC)',
+    description='Autoencoders for Financial Markets (AENC)',
     long_description=readme,
     long_description_content_type='text/markdown',
     install_requires=requirements,
