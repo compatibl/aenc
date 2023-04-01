@@ -58,4 +58,4 @@ never an individual copyright holder.
 ## Publications and Links
 
 1. Alexander Sokol, Autoencoder Market Models for Interest Rates, SSRN Working Paper https://ssrn.com/abstract=4300756
-2. GitHub repository: https://github.com/compatibl/aenc-py
+2. GitHub repository: https://github.com/compatibl/aenc
