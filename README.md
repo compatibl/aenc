@@ -1,4 +1,10 @@
-# Autoencoders for Financial Markets Data (AENC)
+# Autoencoders for Financial Markets (AENC)
+
+## Overview
+
+This package implements specialized autoencoders and related classical methods
+for performing dimension reduction in quant models of financial markets. Potential
+uses include investment strategy research, portfolio valuation, and risk management.
 
 ## Quick Start Guide
 
@@ -8,14 +14,9 @@ Install using:
 pip install aenc
 ```
 
-## Overview
+## Namespaces
 
-This package implements autoencoders and related classical methods
-for reducing the dimension of financial markets data.
-
-### Core
-
-`aenc.core` implements autoencoders and related
+Namespace `aenc.core` implements autoencoders and related
 classical methods, including generic (such as PCA) and specialized
 (such as Nelson-Siegel).
 
@@ -23,17 +24,12 @@ The implementation uses PyTorch and can be easily ported to TensorFlow 2
 and other machine learning frameworks that support dynamic computational
 graphs.
 
-
-### Dummy
-
-`aenc.dummy` includes dummy objects and generators for dummy market
+Namespace `aenc.dummy` includes dummy objects and generators for dummy market
 data for testing purposes. To perform testing or training on real
 market data, provide your own historical market data files in the same
 format as the dummy data files, or use pretrained components.
 
-### Pretrained
-
-`aenc.pretrained` includes pretrained components to avoid lengthy
+Namespace `aenc.pretrained` includes pretrained components to avoid lengthy
 test execution time. Use flags to ignore pretrained parameters
 and perform training from scratch (calculation time will increase).
 
