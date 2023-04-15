@@ -1,5 +1,10 @@
 # Autoencoders for Financial Markets (AENC)
-
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/compatibl/aenc/python-package.yml)
+![GitHub](https://img.shields.io/github/license/compatibl/aenc)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/aenc)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/aenc)
+![PyPI](https://img.shields.io/pypi/v/aenc)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/compatibl/aenc/pulls)
 ## Overview
 
 This package implements specialized autoencoders and related classical methods
